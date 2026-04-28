@@ -1,6 +1,7 @@
 # PDF Processing
 pymupdf==1.23.8
 pdfplumber==0.10.3
+docx2txt==0.8
 
 # NLP
 spacy==3.7.2
@@ -21,7 +22,9 @@ numpy==1.26.2
 
 # Dashboard
 streamlit==1.29.0
+pyarrow==15.0.2
 plotly==5.18.0
+openpyxl==3.1.5
 
 # API (optional)
 fastapi==0.104.1
