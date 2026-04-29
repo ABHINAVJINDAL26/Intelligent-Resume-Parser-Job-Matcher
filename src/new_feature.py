@@ -27,3 +27,7 @@ def feature_part_6(nums):
 def feature_part_7(d):
     """Part 7: get keys of dict as list."""
     return list(d.keys())
+
+def feature_part_8(a, b):
+    """Part 8: return concatenation of two strings."""
+    return f"{a}{b}"
