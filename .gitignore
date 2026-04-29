@@ -11,3 +11,6 @@ __pycache__/
 outputs/
 models/
 *.log
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/

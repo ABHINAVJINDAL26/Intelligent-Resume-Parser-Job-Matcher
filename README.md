@@ -1,15 +1,21 @@
 # Resume Parser and Job Matcher
 
-End-to-end MVP for resume parsing and job matching with:
+This repo now has two layers:
+
+- the working Streamlit MVP for fast local validation
+- a production-style FastAPI + React scaffold that follows the architecture diagram
+
+## What is working now
 
 - PDF/DOCX/TXT extraction
 - resume and job description parsing
 - semantic matching with Sentence-Transformers when available
 - TF-IDF fallback for offline or blocked environments
 - Streamlit dashboard
-- FastAPI demo endpoint
+- FastAPI layered routers for health, resumes, jobs, matching, and insights
+- React frontend scaffold with upload/demo flows
 
-## Run
+## Run the MVP
 
 Install dependencies:
 
@@ -34,6 +40,25 @@ Run the CLI demo:
 ```bash
 python -m src.cli --demo
 ```
+
+## Run the frontend scaffold
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+The frontend proxies API calls to `http://127.0.0.1:8000`.
+
+## API routes
+
+- `GET /health`
+- `POST /match`
+- `POST /api/v1/match/upload`
+- `GET /api/v1/jobs/demo`
+- `POST /api/v1/resumes/upload`
+- `POST /api/v1/insights/match-summary`
 
 ## Notes
 
