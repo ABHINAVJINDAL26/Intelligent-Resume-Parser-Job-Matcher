@@ -11,3 +11,7 @@ def feature_part_2():
 def feature_part_3(x):
     """Part 3: simple transformer - multiply by 2."""
     return x * 2
+
+def feature_part_4(items):
+    """Part 4: return list length."""
+    return len(items)
