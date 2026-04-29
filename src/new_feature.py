@@ -23,3 +23,7 @@ def feature_part_5(text):
 def feature_part_6(nums):
     """Part 6: return sum of numbers."""
     return sum(nums)
+
+def feature_part_7(d):
+    """Part 7: get keys of dict as list."""
+    return list(d.keys())
