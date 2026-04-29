@@ -19,3 +19,7 @@ def feature_part_4(items):
 def feature_part_5(text):
     """Part 5: return lowercase of text."""
     return text.lower()
+
+def feature_part_6(nums):
+    """Part 6: return sum of numbers."""
+    return sum(nums)
