@@ -15,3 +15,7 @@ def feature_part_3(x):
 def feature_part_4(items):
     """Part 4: return list length."""
     return len(items)
+
+def feature_part_5(text):
+    """Part 5: return lowercase of text."""
+    return text.lower()
