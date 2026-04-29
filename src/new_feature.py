@@ -31,3 +31,7 @@ def feature_part_7(d):
 def feature_part_8(a, b):
     """Part 8: return concatenation of two strings."""
     return f"{a}{b}"
+
+def feature_part_9(n):
+    """Part 9: return whether number is even."""
+    return (n % 2) == 0
