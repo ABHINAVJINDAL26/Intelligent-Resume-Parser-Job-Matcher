@@ -35,3 +35,11 @@ def feature_part_8(a, b):
 def feature_part_9(n):
     """Part 9: return whether number is even."""
     return (n % 2) == 0
+
+def feature_part_10():
+    """Part 10: a small summary of available parts."""
+    return [
+        "part_1", "part_2", "part_3", "part_4", "part_5",
+        "part_6", "part_7", "part_8", "part_9"
+    ]
+
