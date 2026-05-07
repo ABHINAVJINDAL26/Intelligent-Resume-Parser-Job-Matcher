@@ -51,6 +51,26 @@ npm run dev
 
 The frontend proxies API calls to `http://127.0.0.1:8000`.
 
+## Run everything with npm
+
+Install root dependencies once:
+
+```bash
+npm install
+```
+
+Start backend and frontend together from the project root:
+
+```bash
+npm run start:all
+```
+
+Available npm scripts:
+
+- `npm run start:backend` starts FastAPI on port `8000`
+- `npm run start:frontend` starts Vite on port `5173`
+- `npm run start:mvp` starts the Streamlit app on port `8501`
+
 ## API routes
 
 - `GET /health`

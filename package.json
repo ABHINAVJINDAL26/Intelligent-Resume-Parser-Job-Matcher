@@ -1,0 +1,14 @@
+{
+  "name": "resume-parser-job-matcher",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "start:backend": ".\\.venv\\Scripts\\python.exe -m uvicorn src.api:app --reload",
+    "start:frontend": "npm --prefix frontend run dev -- --port 5173 --strictPort",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:mvp": ".\\.venv\\Scripts\\python.exe -m streamlit run src/app.py"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
